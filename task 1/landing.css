@@ -1,0 +1,206 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+#container{
+    width: 100%;
+    height: 100vh;
+   
+
+}
+.top{
+    width: 100%;
+    height: 60vh;
+    background-image: url(n.jpg!f305cw);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.top .background{
+    width: 100%;
+    position: relative;
+    height: inherit;
+    background-color: rgba(0, 0, 0, 0.329);
+}
+.top .background .text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    padding: 0 10vh;
+    color: white;
+    margin-top: 20px;
+}
+.text h1{
+    font-weight: 600;
+    font-size: 25px;
+}
+.text .image{
+    /* background-image: url(https://tse2.mm.bing.net/th?id=OIP.ewRfMU-58Iustx-NiDinuAHaEo&pid=Api&P=0&h=180); */
+    background-image: url(1img.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%
+}
+.text .box{
+    display: flex;
+    width: 25%;
+    align-items: center;
+    justify-content: space-between;
+}
+.text .box p{
+    font-size: 25px;
+
+}
+.text .icons i{
+    font-size: 25px;
+}
+.bottom{
+    display: flex;
+    width: 100%;
+    height: 40vh;
+
+}
+.b1{
+    width: 30%;
+    height: inherit;
+    background-image: url(https://3.bp.blogspot.com/-_aH19dTiTUs/TsPkfNRn71I/AAAAAAAACvI/xk7sE-lW0wY/s1600/backgrounds-high-resolution-1280x1024-wallpaper-hd-trees.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.b1 h1{
+    text-align: center;
+    padding: 30px;
+}
+.b1 p{
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+.b2{
+    width: 30%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+}
+
+.b2 .up{
+    width: 100%;
+    height: 20vh;
+     background-image: url(http://www.hdwallpaperspulse.com/wp-content/uploads/2013/07/29/hd-wallpaper-free-download-281.jpg); 
+    background-size: cover;
+    background-position: center;
+}
+.b2 .up h1{
+    text-align: center;
+    padding: 10px;
+}
+.b2 .up p{
+    text-align: center;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.b2 .dowm{
+    width: 100%;
+    height: 20vh;
+    background-image: url(http://www.baltana.com/files/wallpapers-5/Nature-Photoshop-Background-Best-Wallpaper-16407.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.b2 .dowm .box{
+    position: relative;
+    width: 100%;
+    height:20vh;
+    background-color: transparent;
+    color: white;
+   
+}
+
+.b3{
+    width: 40%;
+    height: inherit;
+    background-image: url(nature.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.b3 .contain{
+    justify-content: right;
+    position: relative;
+    margin-left: 50%;
+    width: 50%;
+    height: 100%;
+    padding: 4vh 3vh;
+}
+.b3 .contain p{
+    font-size: 20px;
+    padding: 1.2vh;
+    color: white;
+}
+
+@media screen and (max-width: 700px) {
+    .para{
+        flex-direction: column;
+    }
+    .b3{
+        width: 100%;
+        margin-left: initial;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .text{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .text h1{
+        font-size: 5vh;
+    }
+    .text .image{
+        height: 150px;
+        width: 150px;
+        margin-top: 20px;
+    }
+    .para{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .para p{
+        margin-top: 10px;
+    }
+    .icons{
+        margin-top: 10px;
+    }
+
+    .bottom {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .b1, .b2, .b3 {
+        width: 100%; 
+        height: auto; 
+    }
+    
+    .b2 .up {
+        height: auto; 
+    }
+    
+    .b2 .down {
+        height: auto; 
+    }
+
+    .b3 {
+        background-position: left;
+    }
+}
